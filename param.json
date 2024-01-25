@@ -1,6 +1,6 @@
 {
-    "discordid": "your admin id",
-    "discordtoken" : "your discord token",
+    "discordid": "your_discord_id",
+    "discordtoken" : "your_discord_token",
     "setasread": 1,
     "refreshtime" : 60
 }
