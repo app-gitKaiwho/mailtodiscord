@@ -1,4 +1,6 @@
 {
     "adminid": "your admin id",
-    "setasread": 1
+    "discordtoken" : "your discord token",
+    "setasread": 1,
+    "refreshtime" : 60
 }

@@ -7,7 +7,7 @@ import atexit
 import json
 
 param = json.load(open('token/param.json', 'r'))
-token = open('token/bottoken', 'r').read()
+token = param.get('discordtoken')
 adminid = param.get('adminid')
 
 async def send_embed(mails, mails_contents):
