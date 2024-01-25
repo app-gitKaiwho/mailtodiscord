@@ -8,10 +8,10 @@ import json
 
 param = json.load(open('token/param.json', 'r'))
 token = param.get('discordtoken')
-adminid = param.get('adminid')
+discordid = param.get('discordid')
 
 async def send_embed(mails, mails_contents):
-	user = await client.fetch_user(adminid)
+	user = await client.fetch_user(discordid)
 	embed = discord.Embed(
 		title='42 Mails',
 		url='https://profile.intra.42.fr/',

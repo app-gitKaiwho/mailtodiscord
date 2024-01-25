@@ -1,5 +1,5 @@
 {
-    "adminid": "your admin id",
+    "discordid": "your admin id",
     "discordtoken" : "your discord token",
     "setasread": 1,
     "refreshtime" : 60
