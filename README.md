@@ -9,11 +9,19 @@ Then place the 'param.json' file in the `/token` folder.<br>
 
 <details>
   <summary>Clic here for gmail setup details</summary>
-<h1><strong>to be added</strong></h1>
-<div style="text-align:center">
-  <img src="./asset/test.jpg" alt="Frog" width="400"/>
-</div>
 
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/welcome?authuser=5&project=autorecponder) page
+2. Click `Select a project`->`NEW PROJECT`
+3. Then on the dashboard click `APIs and Services`
+4. `ENABLE APIS AND SERVICES`->`Gmail API`->`ENABLE`
+5. Then Click `OAuth consent screen`
+6. Under User Type select `External` then `CREATE`
+7. Fill obligatory information then `SAVE AND CONTINUE`
+8. `ADD OR REMOVE SCOPES` and under `Manually add scopes` add the following :
+
+        https://www.googleapis.com/auth/gmail.modify
+        https://www.googleapis.com/auth/gmail.readonly
+9. Then after clicking save a bunch more time you should be good to go
 </details>
 
 <details>
@@ -43,3 +51,10 @@ and once completed
 ```bash
 ./mailtodiscord.sh
 ```
+
+<details>
+  <summary></summary>
+
+<div style="text-align:center">
+  <img src="./asset/test.jpg" alt="Frog" width="400"/>
+</div>
