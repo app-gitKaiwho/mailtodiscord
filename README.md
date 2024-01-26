@@ -31,6 +31,7 @@ Then place the 'param.json' file in the `/token` folder.<br>
 2. create a new Application
 3. under `Bot` click the `Reset Token` button and copy the api key
 4. past it in `param.json` as your `discordtoken`
+5. (you might need to invite you bot to a server once via url autorisation)
 </details>
 
 
