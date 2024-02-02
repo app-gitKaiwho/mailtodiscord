@@ -1,3 +1,6 @@
+
+ISSUES WITH TOKEN 
+
 # Mail 2 Discord
 ## Setup Instructions<br>
 Before running the project, you need to set up the Gmail and Discord APIs and generate tokens for them.<br>
